@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import { ChevronLeftIcon, EyeCloseIcon, EyeIcon } from "../../icons";
+import { EyeCloseIcon, EyeIcon } from "../../icons"; // ========ChevronLeftIcon, kalau ditampilkan back to dashboard========
 import Label from "../form/Label";
 import Input from "../form/input/InputField";
 import Checkbox from "../form/input/Checkbox";
@@ -81,6 +81,7 @@ export default function SignInForm() {
 
   return (
     <div className="flex flex-col flex-1">
+      {/*
       <div className="w-full max-w-md pt-10 mx-auto">
         <Link
           to="/"
@@ -90,6 +91,7 @@ export default function SignInForm() {
           Back to dashboard
         </Link>
       </div>
+      */} 
 
       <div className="flex flex-col justify-center flex-1 w-full max-w-md mx-auto">
         <div>
