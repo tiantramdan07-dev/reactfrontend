@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router";
-import { ChevronLeftIcon, EyeCloseIcon, EyeIcon } from "../../icons";
+import { EyeCloseIcon, EyeIcon } from "../../icons"; // ========ChevronLeftIcon, kalau ditampilkan back to dashboard========
 import Label from "../form/Label";
 import Input from "../form/input/InputField";
 import Checkbox from "../form/input/Checkbox";
@@ -89,14 +89,14 @@ export default function SignUpForm() {
         status={modalStatus}
         onClose={() => setModalOpen(false)}
       />
-
+      {/* ======= Back to dashboard ======= 
       <div className="w-full max-w-md mx-auto mb-5 sm:pt-10">
         <Link to="/" className="inline-flex items-center text-sm text-gray-500 transition-colors hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
           <ChevronLeftIcon className="size-5" />
           Back to dashboard
         </Link>
       </div>
-
+      */}
       <div className="flex flex-col justify-center flex-1 w-full max-w-md mx-auto">
         <div className="flex flex-col items-center mb-6">
           <img src="images/logo/logoimiwarna.png" alt="Logo Light" className="w-24 h-24 object-contain block dark:hidden" />
