@@ -1,0 +1,30 @@
+v22.19.0
+PS C:\xampp\htdocs\TailAdmin> npm -v
+10.9.3
+PS C:\xampp\htdocs\TailAdmin> npm install
+
+added 379 packages, and audited 380 packages in 28s
+
+93 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (3 low, 4 moderate, 1 high)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+PS C:\xampp\htdocs\TailAdmin> npm run dev
+
+> tailadmin-react@2.0.1 dev
+> vite
+
+
+  VITE v6.1.0  ready in 569 ms
+
+  ➜  Local:   http://localhost:5173/TailAdmin/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+Browserslist: browsers data (caniuse-lite) is 8 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
