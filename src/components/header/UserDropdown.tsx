@@ -70,7 +70,7 @@ export default function UserDropdown() {
         {/* FOTO USER */}
         <span className="mr-3 overflow-hidden rounded-full h-11 w-11">
           <img
-            src={user?.avatar || "./images/user/user-01.jpg"}
+            src={user?.avatar || "./images/user/user-40.jpg"}
             alt="User"
           />
         </span>
