@@ -28,6 +28,7 @@
         "flatpickr": "^4.6.13",
         "jspdf": "^3.0.3",
         "jspdf-autotable": "^5.0.2",
+        "jwt-decode": "^4.0.0",
         "react": "^18.3.1",
         "react-apexcharts": "^1.7.0",
         "react-date-range": "^2.0.1",
@@ -47,9 +48,7 @@
     },
     "devDependencies": {
         "@eslint/js": "^9.19.0",
-        "@types/react": "^19.0.8",
         "@types/react-date-range": "^1.4.10",
-        "@types/react-dom": "^19.0.3",
         "@types/react-flatpickr": "^3.8.11",
         "@vitejs/plugin-react": "^4.7.0",
         "autoprefixer": "^10.4.20",
