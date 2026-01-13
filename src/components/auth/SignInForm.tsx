@@ -28,7 +28,7 @@ export default function SignInForm() {
 
     try {
       const res = await fetch(
-        `${import.meta.env.VITE_API_URL || "http://10.35.111.82:4000"}/auth/login`,
+        `${import.meta.env.VITE_API_URL || "http://192.168.10.214:4000"}/auth/login`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
