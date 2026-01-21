@@ -48,7 +48,9 @@
     },
     "devDependencies": {
         "@eslint/js": "^9.19.0",
+        "@types/react": "^19.2.9",
         "@types/react-date-range": "^1.4.10",
+        "@types/react-dom": "^19.2.3",
         "@types/react-flatpickr": "^3.8.11",
         "@vitejs/plugin-react": "^4.7.0",
         "autoprefixer": "^10.4.20",
