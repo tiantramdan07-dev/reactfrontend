@@ -20,7 +20,7 @@ export default function CameraClient() {
   );
 
   // URL server Flask
-  const SERVER = "http://192.168.10.214:4000";
+  const SERVER = "http://192.168.10.215:4000";
 
   // token
   const token = localStorage.getItem("token") || sessionStorage.getItem("token");
