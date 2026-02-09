@@ -271,7 +271,7 @@ function generateContent(doc: jsPDF) {
     { align: "center" }
   );
   doc.text(
-    "Telp: (021) 5439-0045 | Email: sales@interskala.com",
+    "Telp: +62 813 1106 8638 | Email: sales@interskala.com",
     pageCenter,
     logoY + 21,
     { align: "center" }
