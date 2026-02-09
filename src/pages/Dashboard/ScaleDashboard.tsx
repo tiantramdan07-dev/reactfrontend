@@ -30,6 +30,19 @@ const ScaleDashboard: React.FC = () => {
   const [detection, setDetection] = useState<string>("-");
   const [totalPrice, setTotalPrice] = useState<number>(0);
 
+  /* =========================
+     ⏰ CLOCK REALTIME (TAMBAHAN)
+  ========================= */
+  const [now, setNow] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setNow(new Date());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
   // state untuk modal notifikasi
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalStatus, setModalStatus] = useState<ModalStatus>(null);
@@ -147,7 +160,7 @@ return (
       </div>
 
       <div className="text-xs md:text-sm text-gray-500 dark:text-gray-400 font-bold">
-        {new Date().toLocaleString("id-ID")}
+        {now.toLocaleString("id-ID")}
       </div>
     </header>
 
