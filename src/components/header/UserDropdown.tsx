@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { DropdownItem } from "../ui/dropdown/DropdownItem";
 import { Dropdown } from "../ui/dropdown/Dropdown";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://192.168.10.215:4000";
+const API_URL = import.meta.env.VITE_API_URL || "http://10.144.170.82:4000";
 
 export default function UserDropdown() {
   const [isOpen, setIsOpen] = useState(false);
