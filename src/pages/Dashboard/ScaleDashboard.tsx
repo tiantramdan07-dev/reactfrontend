@@ -10,7 +10,6 @@ interface Produk {
 }
 
 const API_URL = "http://192.168.10.215:4000"; // bisa taruh di .env (VITE_API_URL)
-const [now, setNow] = useState<Date>(new Date());
 
 /**
  * Hapus emoji / simbol dari pesan server.
@@ -44,15 +43,6 @@ const ScaleDashboard: React.FC = () => {
       .then((data) => setProducts(data))
       .catch((err) => console.error("❌ Gagal memuat produk:", err));
   }, []);
-
-useEffect(() => {
-  const timer = setInterval(() => {
-    setNow(new Date());
-  }, 1000);
-
-  return () => clearInterval(timer);
-}, []);
-
 
   // Update status timbangan & deteksi tiap 1 detik
 useEffect(() => {
