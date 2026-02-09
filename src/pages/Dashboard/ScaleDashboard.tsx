@@ -10,6 +10,7 @@ interface Produk {
 }
 
 const API_URL = "http://192.168.10.215:4000"; // bisa taruh di .env (VITE_API_URL)
+const [now, setNow] = useState(new Date());
 
 /**
  * Hapus emoji / simbol dari pesan server.
@@ -73,7 +74,15 @@ useEffect(() => {
   }, 1000);
 
   return () => clearInterval(interval);
-}, [products]);
+  }, [products]);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setNow(new Date());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   // Fungsi simpan transaksi ke DB lewat Flask
   const simpanTransaksi = async () => {
@@ -147,7 +156,7 @@ return (
       </div>
 
       <div className="text-xs md:text-sm text-gray-500 dark:text-gray-400 font-bold">
-        {new Date().toLocaleString("id-ID")}
+        {now.toLocaleString("id-ID")}
       </div>
     </header>
 
