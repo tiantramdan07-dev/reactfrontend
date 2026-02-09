@@ -164,7 +164,7 @@ return (
         <div className="p-3 md:p-4 border rounded-lg bg-gray-50">
           <label className="text-sm md:text-sm font-bold">BERAT (kg)</label>
           <p className="text-xl md:text-2xl font-bold">
-            {weight > 0 ? weight.toFixed(3) : "-"}
+            {weight > 0 ? weight.toFixed(3) : "0.000"}
           </p>
         </div>
 
