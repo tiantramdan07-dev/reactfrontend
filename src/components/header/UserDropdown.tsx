@@ -120,7 +120,7 @@ export default function UserDropdown() {
         <ul className="flex flex-col gap-1 pt-4 pb-3 border-b border-gray-200 dark:border-gray-800">
           {/* MENU: Edit Profile */}
           <li>
-            <DropdownItem
+            {/* <DropdownItem
               onItemClick={closeDropdown}
               tag="a"
               to="/profile"
@@ -135,7 +135,7 @@ export default function UserDropdown() {
                 <circle cx="12" cy="12" r="9" />
               </svg>
               Edit Profile
-            </DropdownItem>
+            </DropdownItem> */}
           </li>
 
           {/* MENU: Account Settings */}
