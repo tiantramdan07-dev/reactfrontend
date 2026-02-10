@@ -4,7 +4,7 @@ import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import ModalNotifikasi, { ModalStatus } from "../../components/modal/ModalNotifikasi";
 
-const API_URL = "http://10.144.170.82:4000";
+const API_URL = "http://10.156.48.82:4000";
 
 interface Riwayat {
   id: number;
