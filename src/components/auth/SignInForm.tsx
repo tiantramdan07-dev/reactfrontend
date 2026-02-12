@@ -107,7 +107,7 @@ export default function SignInForm() {
               className="w-24 h-24 object-contain hidden dark:block"
             />
             <p className="mt-3 text-lg font-semibold text-gray-800 dark:text-white">
-              Timbangan Digital AI CV
+              Timbangan Digital AI
             </p>
           </div>
 
