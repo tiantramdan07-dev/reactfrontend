@@ -148,7 +148,7 @@ export default function CameraClient() {
         </p>
       )}
 
-      {/* switch kamera */}
+      {/* switch kamera
       <button
         onClick={switchCamera}
         className="
@@ -161,7 +161,7 @@ export default function CameraClient() {
         "
       >
         <img src="assets/switch.png" className="w-5 h-5" />
-      </button>
+      </button> */}
 
       <video
         ref={videoRef}
