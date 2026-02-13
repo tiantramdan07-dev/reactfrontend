@@ -6,7 +6,7 @@ import ModalNotifikasi, {
 // Import Modal Konfirmasi
 import ModalKonfirmasi from "../../components/modal/ModalKonfirmasi";
 
-const API_URL = "http://10.255.64.82:4000"; // Ganti sesuai server Flask Anda
+const API_URL = "http://10.255.64.82:8080"; // Ganti sesuai server Flask Anda
 
 interface Produk {
   kode_produk: number;
