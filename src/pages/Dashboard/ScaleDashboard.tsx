@@ -9,7 +9,7 @@ interface Produk {
   path_gambar: string;
 }
 
-const API_URL = "http://10.255.64.82:8080"; // bisa taruh di .env (VITE_API_URL)
+const API_URL = "http://10.255.64.82:4000"; // bisa taruh di .env (VITE_API_URL)
 
 /**
  * Hapus emoji / simbol dari pesan server.
