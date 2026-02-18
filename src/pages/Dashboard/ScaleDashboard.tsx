@@ -156,7 +156,7 @@ return (
         <h1 className="text-xl md:text-2xl font-extrabold text-blue-800 dark:text-blue-300">
           TIMBANGAN DIGITAL AI
         </h1>
-        <img src="assets/object.png" className="w-7 h-7 md:w-10 md:h-10 object-contain" />
+        {/* <img src="assets/object.png" className="w-7 h-7 md:w-10 md:h-10 object-contain" /> */}
       </div>
 
       <div className="text-xs md:text-sm text-gray-500 dark:text-gray-400 font-bold">
