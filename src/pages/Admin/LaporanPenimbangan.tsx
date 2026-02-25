@@ -7,7 +7,7 @@ import jsPDF from "jspdf";
 import autoTable from "jspdf-autotable";
 import ModalNotifikasi, { ModalStatus } from "../../components/modal/ModalNotifikasi";
 
-const API_URL = "http://10.12.190.82:4000";
+const API_URL = "http://10.155.202.82:4000";
 
 // ✅ FIX TypeScript autoTable
 declare module "jspdf" {
